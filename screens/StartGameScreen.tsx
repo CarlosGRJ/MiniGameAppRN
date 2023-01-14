@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { TextInput, View } from 'react-native';
 
-const StartGameScreen = () => {
+import PrimaryButton from '../components/PrimaryButton';
+
+const StartGameScreen: React.FC = () => {
   return (
-    <div>StartGameScreen</div>
-  )
-}
+    <View>
+      <TextInput />
+      <PrimaryButton>Reset</PrimaryButton>
+      <PrimaryButton>Confirm</PrimaryButton>
+    </View>
+  );
+};
 
-export default StartGameScreen
+export default StartGameScreen;
