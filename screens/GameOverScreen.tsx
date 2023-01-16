@@ -1,8 +1,9 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 const GameOverScreen: React.FC = () => {
   return (
-    <div>GameOverScreen</div>
+    <Text>Game is over!</Text>
   )
 }
 
